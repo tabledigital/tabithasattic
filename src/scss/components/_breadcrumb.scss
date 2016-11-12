@@ -1,0 +1,16 @@
+.breadcrumb {
+  list-style: none;
+
+  &__item {
+    display: inline-block;
+
+    &:after {
+      content: ">";
+      padding-left: 5px;
+    }
+
+    &:last-child:after {
+      content: "";
+    }
+  }
+}

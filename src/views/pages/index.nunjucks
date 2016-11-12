@@ -1,0 +1,13 @@
+<!-- index.nunjucks -->
+{% extends "listing.nunjucks" %}
+{% set page = 'Products' %}
+{% block content %}
+
+<header class="hero">
+  <h1>Welcome to Tabitha's Attic</h1>
+  <p>We carefully choose preloved vintage clothes for you to buy and make us rich from</p>
+</header>
+
+{% include "partials/product-list.nunjucks" %}
+
+{% endblock %}

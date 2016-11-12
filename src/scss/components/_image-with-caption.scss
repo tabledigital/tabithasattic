@@ -1,0 +1,12 @@
+.image-with-caption {
+  margin: 1.5rem 0;
+
+  &__caption {
+
+  }
+
+  &__image {
+    height: auto;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,7 @@
+{% extends "detail.nunjucks" %}
+{% set page = 'About' %}
+{% block content %}
+{% import 'macros/intro.nunjucks' as intro %}
+{{intro.intro('About','Hello here is some stuff about us')}}
+{% include 'partials/content-modules.nunjucks' %}
+{% endblock %}

@@ -1,0 +1,39 @@
+{
+  "products": [{
+    "title": "Vintage 60s dress",
+    "price": "£50",
+    "size": "Medium"
+  },{
+    "title": "Vintage 70s dress",
+    "price": "£62",
+    "size": "Large"
+  },{
+    "title": "Lace velvet bodice jumpsuit dungarees",
+    "price": "£100",
+    "size": "Small"
+  },{
+    "title": "Vintage 60s dress",
+    "price": "£50",
+    "size": "Medium"
+  },{
+    "title": "Vintage 60s dress",
+    "price": "£50",
+    "size": "Medium"
+  },{
+    "title": "Vintage 60s dress",
+    "price": "£50",
+    "size": "Medium"
+  },{
+    "title": "Vintage 60s dress",
+    "price": "£50",
+    "size": "Medium"
+  },{
+    "title": "Vintage 60s dress",
+    "price": "£50",
+    "size": "Medium"
+  },{
+    "title": "Vintage 60s dress",
+    "price": "£50",
+    "size": "Medium"
+  }]
+}

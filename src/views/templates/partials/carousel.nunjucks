@@ -1,0 +1,6 @@
+<div class="carousel" data-flickity='{"imagesLoaded" : "true"}'>
+  <div class="carousel-cell"><img src="/assets/images/dress.jpg"></div>
+  <div class="carousel-cell"><img src="/assets/images/dress.jpg"></div>
+  <div class="carousel-cell"><img src="/assets/images/dress.jpg"></div>
+  <div class="carousel-cell"><img src="/assets/images/dress.jpg"></div>
+</div>

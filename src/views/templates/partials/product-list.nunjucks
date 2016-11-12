@@ -1,0 +1,19 @@
+<section>
+  <h2>Products</h2>
+<ul class="product-list">
+   {% for product in products %}
+   <li class="product-list__item">
+     <a href="/product-detail.html">
+       <img src="/assets/images/dress.jpg" width="350" />
+     </a>
+     <h2>{{product.title}}</h2>
+     <dl>
+       <dt>Price</dt>
+       <dd>{{product.price}}</dd>
+       <dt>Size</dt>
+       <dd>{{product.size}}</dd>
+     </dl>
+   </li>
+   {% endfor %}
+</ul>
+</section>

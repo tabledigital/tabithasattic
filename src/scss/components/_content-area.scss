@@ -1,0 +1,33 @@
+.content-area {
+  ol,
+  ul {
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding-left: 1em;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  td {
+    font-weight: 300;
+  }
+
+  th {
+    border-bottom: 4px solid $pink;
+    font-weight: 700;
+  }
+
+  td,
+  th {
+    border-right: 1px solid $pink;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 5px 10px;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}

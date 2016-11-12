@@ -1,0 +1,24 @@
+{% set word = 'default' %}
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Tabitha's Attic</title>
+		<!-- Open Graph -->
+		{% include 'partials/opengraph.nunjucks'%}
+
+    {% include 'partials/head.nunjucks'%}
+
+	</head>
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGQVZQ"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+    {% include 'partials/header.nunjucks' %}
+		{% include 'partials/breadcrumb.nunjucks'%}
+    <main class="detail">
+      {% block content %} {% endblock %}
+		</main>
+			{% include 'partials/footer.nunjucks'%}
+	</body>
+</html>

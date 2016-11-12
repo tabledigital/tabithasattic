@@ -1,0 +1,10 @@
+<!-- index.nunjucks -->
+{% extends "product-detail.nunjucks" %}
+
+{% block content %}
+{% import 'macros/intro.nunjucks' as intro %}
+{{intro.intro('Vintage 70s dress','Look at it!')}}
+{% include 'partials/carousel.nunjucks' %}
+{% include 'partials/content-modules.nunjucks' %}
+
+{% endblock %}

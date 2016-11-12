@@ -1,0 +1,26 @@
+.nav-primary {
+  font-size: 1.8rem;
+
+  &__list {
+    list-style: none;
+    margin-left: 20px;
+    text-transform: uppercase;
+  }
+
+  &__item {
+    padding-bottom: 4px;
+    display: inline-block;
+    margin-right: 30px;
+
+    &:hover,
+    &:focus {
+      border-bottom: 4px solid $pink-light;
+      padding-bottom: 0;
+    }
+
+    &--active {
+      border-bottom: 4px solid $pink;
+      padding-bottom: 0;
+    }
+  }
+}

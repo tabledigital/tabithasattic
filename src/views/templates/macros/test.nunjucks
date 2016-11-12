@@ -1,0 +1,3 @@
+{% macro test(test='huh') %}
+<p>The thing passed in says "{{ test }}"</p>
+{% endmacro %}

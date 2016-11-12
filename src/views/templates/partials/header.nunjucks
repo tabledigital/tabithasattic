@@ -1,0 +1,6 @@
+<header class="header">
+  <a href="/"><img class="header__logo" src="/assets/images/tabithas-attic.png" alt="Tabitha's Attic" width="250" /></a>
+  {% import '../macros/nav.nunjucks' as nav %}
+  {{nav.nav(page)}}
+  <a href="#"><i class="material-icons">shopping_cart</i></a>
+</header>

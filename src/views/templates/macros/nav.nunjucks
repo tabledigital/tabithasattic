@@ -1,0 +1,8 @@
+{% macro nav(active='Products') %}
+  <nav class="nav-primary">
+    <ul class="nav-primary__list">
+      <li class="nav-primary__item {{'nav-primary__item--active' if active == 'Products'}}"><a href="/">Products</a></li>
+      <li class="nav-primary__item {{'nav-primary__item--active' if active == 'About'}}"><a href="/about.html">About</a></li>
+    </ul>
+  </nav>
+{% endmacro %}
